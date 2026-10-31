@@ -1,0 +1,9 @@
+{
+    "name": "local/nexusphp-sticky-promotion",
+    "description": "Independent sticky promotion and upload rewards for NexusPHP 1.10.2",
+    "type": "library",
+    "license": "GPL-2.0-only",
+    "require": {"php": ">=8.2 <8.6", "ext-bcmath": "*"},
+    "autoload": {"psr-4": {"NexusPlugin\\StickyPromotion\\": "src/"}},
+    "extra": {"laravel": {"providers": ["NexusPlugin\\StickyPromotion\\ServiceProvider"]}}
+}

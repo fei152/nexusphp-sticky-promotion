@@ -1,0 +1,10 @@
+/vendor/
+/.env
+/.env.*
+/composer.lock
+*.log
+*.bak
+*.zip
+*.tar.gz
+/.idea/
+/.vscode/
